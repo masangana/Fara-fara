@@ -24,6 +24,7 @@
 #home {
   background-color: transparent;
   height: 90vh;
+
 }
 
 
@@ -179,6 +180,7 @@ header {
   }
 
 
+
   /**** Step section index page ***/
 
   #main-program {
@@ -259,8 +261,7 @@ header {
 
 
 /*******************/
-
-  @media (min-width : 1262px) {
+ @media (min-width : 1262px) {
     .body{
         background-color: red;
     }
