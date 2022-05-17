@@ -191,11 +191,12 @@ p {
 /**** Step section index page ***/
 
 #main-program {
-  background-image: url(/ressources/images/step-bg.png);
+  background-image: url("./ressources/images/step-bg.png");
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #272a31;
 }
 
 .section2-title {
@@ -674,10 +675,11 @@ footer {
   /** Etapes **/
 
   #main-program {
-    background-image: url(/ressources/images/step-bg.png);
+    background-image: url("./ressources/images/step-bg.png");
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #272a31;
   }
 
   .section2-title {
