@@ -1,14 +1,10 @@
-
-
-document.querySelector("#footer").innerHTML = `
+document.querySelector('#footer').innerHTML = `
 <img src="./ressources/icons/logo.png" alt="logo" class="footer-logo">
 <div class="footer-detail">
     <p>Fara-Fara La compétition qu'il faut pour Vous</p>
 </div>`;
 
-
-
-document.querySelector("#sponsor").innerHTML = `
+document.querySelector('#sponsor').innerHTML = `
 <div class="sponsor-header">
     <h2 class="section-title2">Nos Sponsors</h2>
 </div>
@@ -20,4 +16,3 @@ document.querySelector("#sponsor").innerHTML = `
     <img src="./ressources/sponsor/daumkakao.svg" alt="Daumkakao" class="sponsor-logo">
     <img src="./ressources/sponsor/airbnb.png" alt="Airbnb" class="sponsor-logo">
 </div>`;
-

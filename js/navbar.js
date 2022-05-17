@@ -1,19 +1,19 @@
-const pageHome = document.getElementById("home");
+const pageHome = document.getElementById('home');
 
-const pageAbout = document.getElementById("about");
+const pageAbout = document.getElementById('about');
 
-var pageActive = "";
-var link = "";
+let pageActive = '';
+let link = '';
 
 if (pageHome != null && pageAbout == null) {
-    pageActive = "About";
-    link = "./about.html";
+  pageActive = 'About';
+  link = './about.html';
 } else if (pageHome == null && pageAbout != null) {
-    pageActive = "Home";
-    link = "./index.html";   
+  pageActive = 'Home';
+  link = './index.html';
 }
 
-document.querySelector("#header").innerHTML = `
+document.querySelector('#header').innerHTML = `
 <div class="social-container">
     <ul class="socials">
         <li class="social-item">
