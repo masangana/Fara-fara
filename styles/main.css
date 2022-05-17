@@ -232,6 +232,11 @@ hr {
   height: 65px;
 }
 
+.icon-header {
+  width: 15px;
+  height: 15px;
+}
+
 .program-title {
   color: #ec5242;
   font-family: "Lato", sans-serif;

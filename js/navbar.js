@@ -17,10 +17,10 @@ document.querySelector('#header').innerHTML = `
 <div class="social-container">
     <ul class="socials">
         <li class="social-item">
-            <a href="#" class="social-link"><img src="/Images/social/facebook.svg" alt="facebook" class="icon"></a>
+            <a href="#" class="social-link"><img src="/ressources/social/facebook.svg" alt="facebook" class="icon-header"></a>
         </li>
         <li class="social-item">
-            <a href="#" class="social-link"><img src="/Images/social/twitter.svg" alt="twitter" class="icon"></a>
+            <a href="#" class="social-link"><img src="/ressources/social/twitter.svg" alt="twitter" class="icon-header"></a>
         </li>
         <li class="social-item">
             <a href="#" class="social-link">English</a>
